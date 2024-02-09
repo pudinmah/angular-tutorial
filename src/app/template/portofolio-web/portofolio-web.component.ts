@@ -4,12 +4,14 @@ import { BannerComponent } from '@components/portofolio-web/banner/banner.compon
 import { HeaderMenuComponent } from '@components/portofolio-web/header-menu/header-menu.component';
 import { AboutUsComponent } from '@components/portofolio-web/about-us/about-us.component';
 import { NewsComponent } from '@components/portofolio-web/news/news.component';
+import { AchievementComponent } from '@components/portofolio-web/achievement/achievement.component';
 
 @Component({
   selector: 'app-portofolio-web',
   standalone: true,
   imports: [
-    HeaderComponent,BannerComponent,HeaderMenuComponent,AboutUsComponent,NewsComponent],
+    HeaderComponent,BannerComponent,HeaderMenuComponent,
+    AboutUsComponent,NewsComponent,AchievementComponent],
   templateUrl: './portofolio-web.component.html',
   styleUrl: './portofolio-web.component.css'
 })
